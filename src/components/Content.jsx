@@ -1,10 +1,17 @@
 import React from 'react';
 import Weather from './Weather';
+import Map from './Map';
 
 const Content = ({ city }) => {
     return (
         <div className="content">
             <Weather city={city} />
+            <div>
+                <h2>Карта</h2>
+                <div className="map-container">
+                    <Map />
+                </div>
+            </div>
             <div className="dark-mode">
                 Темный режим: Включение темных тем для улучшения ночного режима и создания привлекательного визуального образа.
             </div>

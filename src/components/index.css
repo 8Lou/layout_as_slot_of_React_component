@@ -42,3 +42,12 @@ p {
 main p {
   animation: fadeIn 1s ease-in-out; 
 }
+.map-container {
+  width: 100%;
+  height: 400px;
+  background-color: #4ca0af;
+  color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}

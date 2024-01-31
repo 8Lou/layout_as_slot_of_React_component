@@ -1,14 +1,17 @@
+import React from 'react';
+import Layout from './components/Layout';
+import Content from './components/Content';
+// import 'index.css';
 
-
-function App() {
+const city = 'Obninsk';
+const App = () => {
   return (
-    <div className="">
-      <p>
-        layout_as_slot_of_React_component
-      </p>
-
-    </div>
+    <Layout
+      headerSlot={<h1>Header</h1>}
+      contentSlot={<Content city={city} />}
+      footerSlot={<p>Footer</p>}
+    />
   );
-}
+};
 
 export default App;

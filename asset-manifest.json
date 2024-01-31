@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/layout_as_slot_of_React_component/static/css/main.f60be75d.css",
+    "main.js": "/layout_as_slot_of_React_component/static/js/main.9ad6baf5.js",
+    "index.html": "/layout_as_slot_of_React_component/index.html",
+    "main.f60be75d.css.map": "/layout_as_slot_of_React_component/static/css/main.f60be75d.css.map",
+    "main.9ad6baf5.js.map": "/layout_as_slot_of_React_component/static/js/main.9ad6baf5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f60be75d.css",
+    "static/js/main.9ad6baf5.js"
+  ]
+}
